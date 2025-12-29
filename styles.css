@@ -270,18 +270,18 @@ h2.section-title::after {
 /* Hotspot Positioning (percentages based on image) */
 /* These will need adjustment based on the actual image */
 .akami {
-    top: 25%;
+    top: 20%;
     left: 45%;
 }
 
 .chutoro {
-    top: 45%;
-    left: 55%;
+    top: 50%;
+    left: 50%;
 }
 
 .otoro {
-    top: 65%;
-    left: 50%;
+    top: 80%;
+    left: 48%;
 }
 
 /* Tooltips */
