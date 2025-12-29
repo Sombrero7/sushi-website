@@ -217,13 +217,17 @@ h2.section-title::after {
 
 /* Tuna Diagram & Hotspots */
 .tuna-diagram-container {
-    position: relative;
     max-width: 900px;
     margin: 4rem auto;
     border: var(--glass-border);
     border-radius: 20px;
     padding: 2rem;
     background: rgba(255, 255, 255, 0.02);
+}
+
+.tuna-diagram-wrapper {
+    position: relative;
+    width: 100%;
 }
 
 .tuna-image {
@@ -236,6 +240,8 @@ h2.section-title::after {
     position: absolute;
     cursor: pointer;
     z-index: 10;
+    transform: translate(-50%, -50%);
+    /* Center the point on the coordinate */
 }
 
 .hotspot-point {
@@ -268,19 +274,19 @@ h2.section-title::after {
 }
 
 /* Hotspot Positioning (percentages based on image) */
-/* These will need adjustment based on the actual image */
+/* Centered on the fish body with organic stagger */
 .akami {
-    top: 20%;
-    left: 45%;
+    top: 42%;
+    left: 46%;
 }
 
 .chutoro {
     top: 50%;
-    left: 50%;
+    left: 54%;
 }
 
 .otoro {
-    top: 80%;
+    top: 58%;
     left: 48%;
 }
 
